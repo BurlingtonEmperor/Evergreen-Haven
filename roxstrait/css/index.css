@@ -45,3 +45,7 @@ p {
   font-size: 10vw;
   font-family: "title-font";
 }
+
+#begin-button {
+  width: 30%;
+}
