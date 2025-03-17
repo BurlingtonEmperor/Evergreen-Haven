@@ -22,6 +22,16 @@ p {
   text-align: center;
 }
 
+.button {
+  border: none;
+  background-color: rgb(197, 237, 78);
+  border-radius: 1.5px;
+}
+
+.button:hover {
+  cursor: pointer;
+}
+
 #title-text {
   font-size: 10vw;
   font-family: "title-font";
