@@ -32,6 +32,8 @@ p {
 
 .center-button {
   justify-content: center;
+  text-align: center;
+  width: inherit;
 }
 
 .button:hover {
