@@ -26,9 +26,12 @@ p {
   border: none;
   background-color: rgb(197, 237, 78);
   border-radius: 1.5px;
+  padding: 8px;
 }
 
 .button:hover {
+  background-color: rgb(150, 242, 225);
+  transition: background-color 1000ms ease-in-out;
   cursor: pointer;
 }
 
