@@ -1,0 +1,24 @@
+@font-face {
+  src: url("../fonts/Entanglement-rgpRB.ttf");
+  font-family: "title-font";
+}
+
+@font-face {
+  src: url("../fonts/Museo_Slab_100.otf");
+  font-family: "normal-font";
+}
+
+body {
+  background-color: rgb(220, 241, 181);
+  font-family: "normal-font";
+}
+
+.center {
+  margin: auto;
+  text-align: center;
+}
+
+#title-text {
+  font-size: 10vw;
+  font-family: "title-font";
+}
