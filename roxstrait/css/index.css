@@ -48,4 +48,5 @@ p {
 
 #begin-button {
   width: 30%;
+  display: flex;
 }
