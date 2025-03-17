@@ -13,6 +13,10 @@ body {
   font-family: "normal-font";
 }
 
+p {
+  margin: 0;
+}
+
 .center {
   margin: auto;
   text-align: center;
