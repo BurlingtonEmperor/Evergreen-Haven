@@ -49,4 +49,6 @@ p {
 #begin-button {
   width: 30%;
   display: flex;
+  position: relative;
+  left: 50%;
 }
