@@ -56,9 +56,6 @@ p {
 #hyperspace {
   width: 98vw;
   position: absolute;
-  left: 50%;
-  right: 50%;
-  margin: auto;
   background-image: url("../IMG_0558.gif");
   background-size: cover;
   height: 98vh;
