@@ -4,6 +4,6 @@ const hyperspace = document.getElementById("hyperspace");
 const beginButton = document.getElementById("begin-button");
 
 beginButton.onclick = function () {
-  menuPage.style.display = "none";
-  hyperspace.style.display = "block";
+  $(menuPage).fadeOut(1000);
+  $(hyperspace).fadeIn(1000);
 }
