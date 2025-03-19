@@ -58,6 +58,7 @@ p {
   position: absolute;
   background-image: url("../IMG_0558.gif");
   background-size: cover;
-  height: 98vh;
+  height: 95vh;
+  opacity: 0.8;
   display: none;
 }
