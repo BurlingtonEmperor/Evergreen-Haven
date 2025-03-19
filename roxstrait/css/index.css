@@ -54,6 +54,8 @@ p {
 }
 
 #hyperspace {
+  top: 0;
+  left: 0;
   width: 98vw;
   position: absolute;
   background-image: url("../IMG_0558.gif");
