@@ -64,7 +64,7 @@ p {
   left: 35%;
 }
 
-#hyperspace, #drivein {
+#hyperspace, #drivein, #plants {
   top: 0;
   left: 0;
   width: 100%;
@@ -90,6 +90,10 @@ p {
   background-image: url("../drivein.webp");
 }
 
-#trolley {
+#plants {
+  background-image: url("../garden.webp");
+}
+
+#trolley, #garden {
   display: none;
 }
