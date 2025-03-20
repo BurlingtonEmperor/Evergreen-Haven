@@ -58,12 +58,11 @@ p {
   left: 35%;
 }
 
-#hyperspace {
+#hyperspace, #drivein {
   top: 0;
   left: 0;
   width: 100%;
   position: absolute;
-  background-image: url("../IMG_0558.gif");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top center;
@@ -75,6 +74,14 @@ p {
   height: 100%;
   opacity: 0.1;
   display: none;
+}
+
+#hyperspace {
+  background-image: url("../IMG_0558.gif");
+}
+
+#drivein {
+  background-image: url("../drivein.webp");
 }
 
 #trolley {
