@@ -51,9 +51,18 @@
     background: #39b54a;
   }
   .d {
+    -webkit-transition: background-image 0.2s ease-in-out;
+    transition: background-image 0.2s ease-in-out;
     transform: rotateY(180deg) translateZ(250px);
     background: #f26522;
+    background-image: none;
   }
+  
+  .d:hover {
+    background-image: url("../house.gif");
+    background-blend-mode: lighten;
+  }
+
   .e {
     transform: rotateY(240deg) translateZ(250px);
     background: #630460;
