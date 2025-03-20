@@ -43,8 +43,8 @@ p {
 
 .info {
   position: fixed;
-  right: 5;
-  bottom: 5;
+  right: 5px;
+  bottom: 5px;
 }
 
 #title-text {
