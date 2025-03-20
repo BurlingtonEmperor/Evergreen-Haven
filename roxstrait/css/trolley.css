@@ -55,7 +55,7 @@
     transition: background-image 0.2s ease-in-out;
     transform: rotateY(180deg) translateZ(250px);
     background: #f26522;
-    background-image: none;
+    background-image: url("../d.png");
   }
   
   .d:hover {
