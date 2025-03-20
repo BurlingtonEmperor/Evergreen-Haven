@@ -52,7 +52,7 @@ p {
   font-family: "title-font";
 }
 
-#bovine {
+#bovine, #garden-text {
   font-size: 7vw;
   font-family: "title-font";
 }
