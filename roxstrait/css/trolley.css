@@ -27,6 +27,8 @@
     font-size: 1.3em;
     border-radius: 10px;
     font-family: "title-font";
+    cursor: pointer;
+    user-select: none;
   }
   
   .a {

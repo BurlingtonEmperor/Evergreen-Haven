@@ -28,3 +28,21 @@ beginButton.onclick = function () {
     }, 1000);
   }, 1000);
 }
+
+$(".a").onclick = function () {
+  switch (interACTIVE) {
+    case 0:
+      interACTIVE = 1;
+      break;
+    case 1:
+      return 0;
+  }
+
+  $(trolley).fadeOut(1000);
+  $(drivein).fadeOut(1000);
+  $(hyperspace).fadeIn(1000);
+
+  setTimeout(function () {
+    $(hyperspace).fadeOut(1000);
+  }, 1000);
+}
