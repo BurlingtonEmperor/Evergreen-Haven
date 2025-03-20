@@ -12,6 +12,7 @@ const gardenButton = document.getElementById("garden-button");
 const suburbButton = document.getElementById("suburb-button");
 
 const trolleyButton = document.getElementById("trolley-button"); // for garden
+const trolleyButtonN = document.getElementById("trolley-buttonn"); // for neighborhood
 
 let interACTIVE = 0;
 beginButton.onclick = function () {
@@ -96,6 +97,30 @@ trolleyButton.onclick = function () {
 
   $(garden).fadeOut(1000);
   $(plants).fadeOut(1000);
+  $(hyperspace).fadeIn(1000);
+
+  setTimeout(function () {
+    $(hyperspace).fadeOut(1000);
+    $(trolley).fadeIn(1000);
+    $(drivein).fadeIn(1000);
+
+    setTimeout(function () {
+      interACTIVE = 0;
+    }, 1000);
+  }, 1000);
+}
+
+trolleyButtonN.onclick = function () {
+  switch (interACTIVE) {
+    case 0:
+      interACTIVE = 1;
+      break;
+    case 1:
+      return 0;
+  }
+
+  $(suburbia).fadeOut(1000);
+  $(neighborhood).fadeOut(1000);
   $(hyperspace).fadeIn(1000);
 
   setTimeout(function () {
