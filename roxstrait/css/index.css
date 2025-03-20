@@ -47,6 +47,12 @@ p {
   bottom: 5px;
 }
 
+#trolley-button {
+  position: fixed;
+  left: 5px;
+  bottom: 5px;
+}
+
 #title-text {
   font-size: 10vw;
   font-family: "title-font";
