@@ -47,7 +47,7 @@ p {
   bottom: 5px;
 }
 
-#trolley-button {
+#trolley-button, #trolley-buttonn {
   position: fixed;
   left: 5px;
   bottom: 5px;
