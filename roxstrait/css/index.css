@@ -58,7 +58,7 @@ p {
   font-family: "title-font";
 }
 
-#bovine, #garden-text {
+#bovine, #garden-text, #watcher {
   font-size: 7vw;
   font-family: "title-font";
 }
@@ -70,7 +70,7 @@ p {
   left: 35%;
 }
 
-#hyperspace, #drivein, #plants {
+#hyperspace, #drivein, #plants, #suburbia {
   top: 0;
   left: 0;
   width: 100%;
@@ -100,6 +100,10 @@ p {
   background-image: url("../garden.webp");
 }
 
-#trolley, #garden {
+#suburbia {
+  background-image: url("../suburbia.jpg");
+}
+
+#trolley, #garden, #neighborhood {
   display: none;
 }
