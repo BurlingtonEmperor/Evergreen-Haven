@@ -56,11 +56,18 @@ p {
 #hyperspace {
   top: 0;
   left: 0;
-  width: 98vw;
+  width: 100%;
   position: absolute;
   background-image: url("../IMG_0558.gif");
   background-size: cover;
-  height: 95vh;
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100%;
   opacity: 0.1;
   display: none;
 }
