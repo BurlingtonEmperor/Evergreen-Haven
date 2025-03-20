@@ -41,6 +41,12 @@ p {
   cursor: pointer;
 }
 
+.info {
+  position: fixed;
+  right: 5;
+  bottom: 5;
+}
+
 #title-text {
   font-size: 10vw;
   font-family: "title-font";
