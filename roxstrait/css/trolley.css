@@ -46,10 +46,20 @@
     transform: rotateY(60deg) translateZ(250px);
     background: #75c497;
   }
+
   .c {
+    -webkit-transition: background-image 0.2s ease-in-out;
+    transition: background-image 0.2s ease-in-out;
     transform: rotateY(120deg) translateZ(250px);
     background: #39b54a;
+    background-image: url("../c.png");
   }
+
+  .c:hover {
+    background-image: url("../cash.gif");
+    background-blend-mode: lighten;
+  }
+
   .d {
     -webkit-transition: background-image 0.2s ease-in-out;
     transition: background-image 0.2s ease-in-out;
