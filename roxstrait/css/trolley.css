@@ -27,11 +27,11 @@
     font-size: 1.3em;
     border-radius: 10px;
     font-family: "title-font";
-    -webkit-transition: background-image 0.2s ease-in-out;
-    transition: background-image 0.2s ease-in-out;
   }
   
   .a {
+    -webkit-transition: background-image 0.2s ease-in-out;
+    transition: background-image 0.2s ease-in-out;
     transform: rotateY(0deg) translateZ(250px);
     background: #81bccc;
   }
