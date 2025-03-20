@@ -30,11 +30,11 @@
   
   .a {
     transform: rotateY(0deg) translateZ(250px);
-    background: #ed1c24;
+    background: #81bccc;
   }
   .b {
     transform: rotateY(60deg) translateZ(250px);
-    background: #0072bc;
+    background: #75c497;
   }
   .c {
     transform: rotateY(120deg) translateZ(250px);
@@ -59,13 +59,13 @@
     top: 100px;
     padding: 1em 2em;
     cursor: pointer;
-    background: #CCC;
+    background: #a1e896;
     border-radius: 5px;
     border-top: 1px solid #FFF;
     box-shadow: 0 5px 0 #999;
     transition: box-shadow 0.1s, top 0.1s;
   }
-  
+
   .next:hover, .prev:hover { color: #000; }
   .next:active, .prev:active {
     top: 104px;
