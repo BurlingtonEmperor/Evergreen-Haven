@@ -27,7 +27,8 @@
     font-size: 1.3em;
     border-radius: 10px;
     font-family: "title-font";
-    transition: background-image 1000ms ease-in-out;
+    -webkit-transition: background-image 0.2s ease-in-out;
+    transition: background-image 0.2s ease-in-out;
   }
   
   .a {
@@ -37,6 +38,7 @@
 
   .a:hover {
     background-image: url("../flowers.gif");
+    background-blend-mode: lighten;
   }
 
   .b {
