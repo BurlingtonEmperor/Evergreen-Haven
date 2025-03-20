@@ -27,12 +27,18 @@
     font-size: 1.3em;
     border-radius: 10px;
     font-family: "title-font";
+    transition: background-image 1000ms ease-in-out;
   }
   
   .a {
     transform: rotateY(0deg) translateZ(250px);
     background: #81bccc;
   }
+
+  .a:hover {
+    background-image: url("../flowers.gif");
+  }
+
   .b {
     transform: rotateY(60deg) translateZ(250px);
     background: #75c497;
