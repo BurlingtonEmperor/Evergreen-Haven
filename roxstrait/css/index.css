@@ -46,6 +46,11 @@ p {
   font-family: "title-font";
 }
 
+#bovine {
+  font-size: 7vw;
+  font-family: "title-font";
+}
+
 #begin-button {
   width: 30%;
   display: flex;
