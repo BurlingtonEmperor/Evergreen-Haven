@@ -4,6 +4,7 @@ const drivein = document.getElementById("drivein");
 const trolley = document.getElementById("trolley");
 
 const beginButton = document.getElementById("begin-button");
+const gardenButton = document.getElementById("garden-button");
 
 let interACTIVE = 0;
 beginButton.onclick = function () {
@@ -29,7 +30,7 @@ beginButton.onclick = function () {
   }, 1000);
 }
 
-$(".a").onclick = function () {
+gardenButton.onclick = function () {
   switch (interACTIVE) {
     case 0:
       interACTIVE = 1;
