@@ -145,4 +145,5 @@ select {
   font-size: 2vw;
   font-family: "normal-font";
   position: absolute;
+  outline: none;
 }
