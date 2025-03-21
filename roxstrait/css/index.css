@@ -17,6 +17,10 @@ p {
   margin: 0;
 }
 
+label {
+  font-size: 2vw;
+}
+
 select {
   background-color: #368fa5;
   padding: 8px;
@@ -140,4 +144,5 @@ select {
 #plant-selector {
   font-size: 2vw;
   font-family: "normal-font";
+  position: absolute;
 }
