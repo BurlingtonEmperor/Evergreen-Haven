@@ -114,8 +114,7 @@ p {
 
 #meetinghouse {
   width: 35%;
-  left: 50%;
-  right: 50%;
+  left: 35%;
   position: absolute;
   margin: auto;
 }
