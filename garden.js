@@ -5,3 +5,7 @@ const carrotsRow = document.getElementById("row3-farm");
 for (let i = 0; i < 14; i++) {
   fruitingRow.innerHTML += "<img src='./roxstrait/fruit.png' width='7%'/>";
 }
+
+for (let i = 0; i < 14; i++) {
+  fruitingRow.innerHTML += "<img src='./roxstrait/spinach.png' width='7%' />";
+}
