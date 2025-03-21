@@ -113,5 +113,6 @@ p {
 }
 
 #meetinghouse {
-  width: 20%;
+  width: 40%;
+  margin: auto;
 }
