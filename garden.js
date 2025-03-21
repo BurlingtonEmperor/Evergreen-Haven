@@ -9,3 +9,7 @@ for (let i = 0; i < 14; i++) {
 for (let i = 0; i < 14; i++) {
   fruitingRow.innerHTML += "<img src='./roxstrait/spinach.png' width='7%' />";
 }
+
+for (let i = 0; i < 14; i++) {
+  fruitingRow.innerHTML += "<img src='./roxstrait/carrot.png' width='7%' />";
+}
