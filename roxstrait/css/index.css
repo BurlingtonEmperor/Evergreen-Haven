@@ -58,7 +58,7 @@ p {
   font-family: "title-font";
 }
 
-#bovine, #garden-text, #watcher {
+#bovine, #garden-text, #watcher, #hall {
   font-size: 7vw;
   font-family: "title-font";
 }
@@ -104,6 +104,6 @@ p {
   background-image: url("../suburbia.jpg");
 }
 
-#trolley, #garden, #neighborhood {
+#trolley, #garden, #neighborhood, #townhall {
   display: none;
 }
