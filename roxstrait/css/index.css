@@ -104,6 +104,10 @@ p {
   background-image: url("../suburbia.jpg");
 }
 
+#concord {
+  background-image: url("../concord.jpeg");
+}
+
 #trolley, #garden, #neighborhood, #townhall {
   display: none;
 }
