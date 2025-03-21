@@ -3,7 +3,7 @@ const meetinghouse = document.getElementById("meetinghouse");
 
 function percentHeight (elem) {
   let pa = elem.offsetParent || elem;
-  return (((elem.offsetHeight/pa.offsetHeight)*100).toFixed(2) - 10 )+'%';
+  return (((elem.offsetHeight/pa.offsetHeight)*100).toFixed(2) - 14 )+'%';
 }
 
 tree.style.bottom = percentHeight(meetinghouse);
