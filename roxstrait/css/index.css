@@ -111,3 +111,7 @@ p {
 #trolley, #garden, #neighborhood, #townhall {
   display: none;
 }
+
+#meetinghouse {
+  width: 20%;
+}

@@ -16,6 +16,7 @@ const hallButton = document.getElementById("hall-button");
 
 const trolleyButton = document.getElementById("trolley-button"); // for garden
 const trolleyButtonN = document.getElementById("trolley-buttonn"); // for neighborhood
+const trolleyButtonO = document.getElementById("trolley-buttone"); // town hall
 
 let interACTIVE = 0;
 beginButton.onclick = function () {
@@ -148,6 +149,30 @@ trolleyButtonN.onclick = function () {
 
   $(suburbia).fadeOut(1000);
   $(neighborhood).fadeOut(1000);
+  $(hyperspace).fadeIn(1000);
+
+  setTimeout(function () {
+    $(hyperspace).fadeOut(1000);
+    $(trolley).fadeIn(1000);
+    $(drivein).fadeIn(1000);
+
+    setTimeout(function () {
+      interACTIVE = 0;
+    }, 1000);
+  }, 1000);
+}
+
+trolleyButtonO.onclick = function () {
+  switch (interACTIVE) {
+    case 0:
+      interACTIVE = 1;
+      break;
+    case 1:
+      return 0;
+  }
+
+  $(concord).fadeOut(1000);
+  $(townhall).fadeOut(1000);
   $(hyperspace).fadeIn(1000);
 
   setTimeout(function () {
