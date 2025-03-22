@@ -63,25 +63,24 @@
   }
 
   .d {
-    -webkit-transition: background-image 0.2s ease-in-out;
-    transition: background-image 0.2s ease-in-out;
     transform: rotateY(180deg) translateZ(250px);
-    background: #f26522;
-    background-image: url("../d.png");
-  }
-  
-  .d:hover {
-    background-image: url("../house.gif");
+    background: #eae1dd;
+    background-image: url("../IMG_0668.jpeg");
     background-blend-mode: lighten;
   }
 
   .e {
     transform: rotateY(240deg) translateZ(250px);
-    background: #630460;
+    background: #ece1eb;
+    background-image: url("../IMG_0669.jpeg");
+    background-blend-mode: lighten;
   } 
+  
   .f {
     transform: rotateY(300deg) translateZ(250px);
-    background: #8c6239;
+    background: #e2d9d0;
+    background-image: url("../IMG_0670.jpeg");
+    background-blend-mode: lighten;
   }
   
   .next, .prev {
