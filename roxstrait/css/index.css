@@ -152,3 +152,7 @@ select {
   font-size: 2vw;
   position: absolute;
 }
+
+#whyme {
+  position: relative;
+}
