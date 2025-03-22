@@ -77,21 +77,18 @@
     transform: rotateY(180deg) translateZ(250px);
     background: #eae1dd;
     background-image: url("../cash.gif");
-    background-blend-mode: lighten;
   }
 
   .e {
     transform: rotateY(240deg) translateZ(250px);
     background: #ece1eb;
     background-image: url("../IMG_0669.jpeg");
-    background-blend-mode: lighten;
   } 
 
   .f {
     transform: rotateY(300deg) translateZ(250px);
     background: #e2d9d0;
     background-image: url("../IMG_0670.jpeg");
-    background-blend-mode: lighten;
   }
   
   .next, .prev {
