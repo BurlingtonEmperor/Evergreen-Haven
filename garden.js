@@ -59,3 +59,21 @@
 //     plantCycle();
 //   }, 30000);
 // }
+
+let optimalWaterAmount = [];
+let optimalFertAmount = [];
+let optimalHarvestAmount = [];
+
+for (let i = 0; i < 3; i++) {
+  optimalWaterAmount[i] = Math.random() * 20;
+  optimalFertAmount[i] = Math.random() * 20;
+  optimalHarvestAmount[i] = Math.random() * 20;
+}
+
+let targWater = 0;
+let targFert = 0;
+let targHarv = 0;
+
+function reinforceAI () {
+    
+}
