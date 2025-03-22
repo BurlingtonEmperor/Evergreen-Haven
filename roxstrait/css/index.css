@@ -174,3 +174,14 @@ select {
   position: absolute;
   border: none;
 }
+
+.plant-row {
+  display: flex;
+  background-color: #d3e762;
+  opacity: 0.2;
+}
+
+.plant-view {
+  width: 15%;
+  border-radius: 6.5px;
+}
