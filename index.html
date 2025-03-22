@@ -68,7 +68,20 @@
         <option value="spinach">Leafy Greens</option>
         <option value="carrot">Carrots and Potatoes</option>
       </select>
+      <label for="life-selector">Choose a row: </label>
+      <select name="life-selector" id="life-selector" class="center">
+        <option value="default">Please select a life stage...</option>
+        <option value="seed">Seed</option>
+        <option value="sapling">Sapling</option>
+        <option value="adult">"Adult" Plant</option>
+      </select>
+      <br/>
       <div class="button" id="sim-start">Reset and Begin Cycle</div>
+      <p><i>Please face the screen directly in front of the targeted plant.</i></p>
+      <br/>
+      <p id="water-status">Water Status: <a id="water-level"></a></p>
+      <p id="fert-status">Fertilization Status: <a id="fert-level"></a></p>
+      <p id="harvest-status">Harvest Status: <a id="harvest-status"></a></p>
     </div>
     <div id="suburbia"></div>
     <div id="neighborhood">

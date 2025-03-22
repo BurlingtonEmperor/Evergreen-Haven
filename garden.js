@@ -13,3 +13,6 @@
 // for (let i = 0; i < 14; i++) {
 //   carrotsRow.innerHTML += "<img src='./roxstrait/carrot.png' width='7%' />";
 // }
+
+const simStart = document.getElementById("sim-start");
+const plantSelector = document.getElementById("plant-selector");

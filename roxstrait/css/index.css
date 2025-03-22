@@ -141,7 +141,7 @@ select {
   opacity: 0.15;
 }
 
-#plant-selector {
+#plant-selector, #life-selector {
   font-size: 2vw;
   font-family: "normal-font";
   position: absolute;
