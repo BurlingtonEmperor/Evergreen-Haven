@@ -227,9 +227,9 @@ runFert.onclick = function () {
     fertThreeAnimation.innerText = "";
   
     for (let i = 0; i < fertA; i++) {
-      fertAnimation.innerText += "💧";
-      fertTwoAnimation.innerText += "💧";
-      fertThreeAnimation.innerText += "💧";
+      fertAnimation.innerText += "🥫";
+      fertTwoAnimation.innerText += "🥫";
+      fertThreeAnimation.innerText += "🥫";
     }
   }, 1000);
 
@@ -260,9 +260,9 @@ runHarv.onclick = function () {
     harvThreeAnimation.innerText = "";
   
     for (let i = 0; i < harvA; i++) {
-      harvAnimation.innerText += "💧";
-      harvTwoAnimation.innerText += "💧";
-      harvThreeAnimation.innerText += "💧";
+      harvAnimation.innerText += "🌾";
+      harvTwoAnimation.innerText += "🌾";
+      harvThreeAnimation.innerText += "🌾";
     }
   }, 1000);
 
