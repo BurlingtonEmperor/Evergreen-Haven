@@ -90,29 +90,29 @@ hallButton.onclick = function () {
   }, 1000);
 }
 
-suburbButton.onclick = function () {
-  switch (interACTIVE) {
-    case 0:
-      interACTIVE = 1;
-      break;
-    case 1:
-      return 0;
-  }
+// suburbButton.onclick = function () {
+//   switch (interACTIVE) {
+//     case 0:
+//       interACTIVE = 1;
+//       break;
+//     case 1:
+//       return 0;
+//   }
 
-  $(trolley).fadeOut(1000);
-  $(drivein).fadeOut(1000);
-  $(hyperspace).fadeIn(1000);
+//   $(trolley).fadeOut(1000);
+//   $(drivein).fadeOut(1000);
+//   $(hyperspace).fadeIn(1000);
 
-  setTimeout(function () {
-    $(hyperspace).fadeOut(1000);
-    $(neighborhood).fadeIn(1000);
-    $(suburbia).fadeIn(1000);
+//   setTimeout(function () {
+//     $(hyperspace).fadeOut(1000);
+//     $(neighborhood).fadeIn(1000);
+//     $(suburbia).fadeIn(1000);
 
-    setTimeout(function () {
-      interACTIVE = 0;
-    }, 1000);
-  }, 1000);
-}
+//     setTimeout(function () {
+//       interACTIVE = 0;
+//     }, 1000);
+//   }, 1000);
+// }
 
 trolleyButton.onclick = function () {
   switch (interACTIVE) {
