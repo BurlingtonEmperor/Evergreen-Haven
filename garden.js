@@ -25,5 +25,5 @@ function plantCycle () {
 }
 
 simStart.onclick = function () {
-  document.body.backgroundColor = "#b898f5";
+  document.body.style.backgroundColor = "#b898f5";
 }

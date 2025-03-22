@@ -123,7 +123,7 @@ trolleyButton.onclick = function () {
       return 0;
   }
 
-  document.body.backgroundColor = "rgb(220, 241, 181)";
+  document.body..style.backgroundColor = "rgb(220, 241, 181)";
   clearInterval(intervalToClearLater);
 
   $(garden).fadeOut(1000);
