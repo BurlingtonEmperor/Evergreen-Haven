@@ -188,3 +188,7 @@ select {
   width: 10%;
   border-radius: 6.5px;
 }
+
+#run-water {
+  position: relative;
+}
