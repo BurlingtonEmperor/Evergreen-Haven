@@ -32,9 +32,9 @@ function plantCycle () {
   timeTillFert -= 1;
   timeTillHarvest -= 1;
 
-  waterLevel.innerText = "Time until next watering is <a style='color:red'>" + timeTillWater + "</a> minutes";
-  fertLevel.innerText = "Time until next fertilization is <a style='color:red'>" + timeTillFert + "</a> minutes";
-  harvestLevel.innerText = "Time until you can harvest is <a style='color:red'>" + timeTillHarvest + "</a> minutes";
+  waterLevel.innerHTML = "Time until next watering is <a style='color:red'>" + timeTillWater + "</a> minutes";
+  fertLevel.innerHTML = "Time until next fertilization is <a style='color:red'>" + timeTillFert + "</a> minutes";
+  harvestLevel.innerHTML = "Time until you can harvest is <a style='color:red'>" + timeTillHarvest + "</a> minutes";
 }
 
 simStart.onclick = function () {
