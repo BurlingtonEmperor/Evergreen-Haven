@@ -39,5 +39,5 @@ function plantCycle () {
 
 simStart.onclick = function () {
   document.body.style.backgroundColor = "#b898f5";
-  intervalToClearLater = setInterval(plantCycle(), 60000);
+  intervalToClearLater = setInterval(plantCycle(), 30000);
 }
