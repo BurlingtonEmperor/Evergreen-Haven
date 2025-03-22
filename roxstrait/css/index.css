@@ -189,6 +189,6 @@ select {
   border-radius: 6.5px;
 }
 
-#run-water {
+#run-water, #run-fert, #run-harv {
   position: absolute;
 }
