@@ -173,12 +173,13 @@ select {
   height: 55%;
   position: absolute;
   border: none;
+  gap: 10px;
 }
 
 .plant-row {
   display: flex;
   background-color: #d3e762;
-  opacity: 0.2;
+  opacity: 0.1;
 }
 
 .plant-view {
