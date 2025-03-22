@@ -32,6 +32,18 @@ function plantCycle () {
   timeTillFert -= 1;
   timeTillHarvest -= 1;
 
+  if (timeTillWater < 1) {
+    timeTillWater = 4320;
+  }
+
+  if (timeTillFert < 1) {
+    timeTillFert = 21600;
+  }
+
+  if (timeTillHarvest < 1) {
+    timeTillHarvest = 72000;
+  }
+
   waterLevel.innerHTML = "Time until next watering is <a style='color:red'>" + timeTillWater + "</a> minutes";
   fertLevel.innerHTML = "Time until next fertilization is <a style='color:red'>" + timeTillFert + "</a> minutes";
   harvestLevel.innerHTML = "Time until you can harvest is <a style='color:red'>" + timeTillHarvest + "</a> minutes";
