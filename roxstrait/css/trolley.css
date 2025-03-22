@@ -62,6 +62,17 @@
     background-blend-mode: lighten;
   }
 
+  .d, .e, .f {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
   .d {
     transform: rotateY(180deg) translateZ(250px);
     background: #eae1dd;
@@ -75,7 +86,7 @@
     background-image: url("../IMG_0669.jpeg");
     background-blend-mode: lighten;
   } 
-  
+
   .f {
     transform: rotateY(300deg) translateZ(250px);
     background: #e2d9d0;
