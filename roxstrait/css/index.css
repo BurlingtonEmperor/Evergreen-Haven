@@ -190,5 +190,5 @@ select {
 }
 
 #run-water {
-  position: relative;
+  position: absolute;
 }
