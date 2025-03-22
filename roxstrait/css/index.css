@@ -58,6 +58,10 @@ select {
   bottom: 5px;
 }
 
+.arch {
+  width: 15%;
+}
+
 #trolley-button, #trolley-buttonn, #trolley-buttone {
   position: fixed;
   left: 5px;
