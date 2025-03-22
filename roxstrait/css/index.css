@@ -179,7 +179,7 @@ select {
 .plant-row {
   display: flex;
   background-color: #d3e762;
-  opacity: 0.1;
+  opacity: 0.8;
 }
 
 .plant-view {
