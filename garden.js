@@ -16,3 +16,14 @@
 
 const simStart = document.getElementById("sim-start");
 const plantSelector = document.getElementById("plant-selector");
+const lifeSelector = document.getElementById("life-selector");
+
+let intervalToClearLater = 0;
+
+function plantCycle () {
+  
+}
+
+simStart.onclick = function () {
+  document.body.backgroundColor = "#b898f5";
+}
