@@ -62,7 +62,7 @@ select {
   width: 80%;
 }
 
-#trolley-button, #trolley-buttonn, #trolley-buttone {
+#trolley-button, #trolley-buttonn, #trolley-buttone, #trolley-buttond {
   position: fixed;
   left: 5px;
   bottom: 5px;
