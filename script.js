@@ -151,11 +151,11 @@ trolleyButton.onclick = function () {
       return 0;
   }
 
-  document.body.style.backgroundColor = "rgb(220, 241, 181)";
-  clearInterval(intervalToClearLater);
-  timeTillWater = 4320; // minutes
-  timeTillFert = 21600; // minutes
-  timeTillHarvest = 72000;
+  // document.body.style.backgroundColor = "rgb(220, 241, 181)";
+  // clearInterval(intervalToClearLater);
+  // timeTillWater = 4320; // minutes
+  // timeTillFert = 21600; // minutes
+  // timeTillHarvest = 72000;
 
   $(garden).fadeOut(1000);
   $(plants).fadeOut(1000);
