@@ -179,8 +179,8 @@ select {
 .plant-row {
   display: flex;
   background-color: #d3e762;
-  border: 0.5px solid white;
   width: 60%;
+  box-shadow: 10px 10px 5px #aaaaaa;
 }
 
 .plant-view {
