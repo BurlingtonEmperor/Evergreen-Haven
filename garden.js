@@ -38,6 +38,9 @@ function plantCycle () {
 }
 
 simStart.onclick = function () {
+  timeTillWater = 4320; // minutes
+  timeTillFert = 21600; // minutes
+  timeTillHarvest = 72000;
   document.body.style.backgroundColor = "#b898f5";
   intervalToClearLater = setInterval(plantCycle(), 30000);
 }
